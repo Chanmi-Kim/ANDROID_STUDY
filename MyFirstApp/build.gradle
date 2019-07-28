@@ -1,0 +1,36 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+/*
+이 이름을 가진 2개의 파일이 표시됩니다.
+하나는 프로젝트용이고('프로젝트:MyFirstApp')
+하나는 '앱' 모듈용입니다.('모듈:app').
+각 모듈에는 자체 build.gradle 파일이 있지만 현재 이 프로젝트에는 하나의 모듈만 있습니다.
+대부분 모듈의 build.gradle 파일을 사용하여 Gradle 도구에서 앱을 컴파일하고 빌드하는 방법을 구성합니다.
+이 파일에 대한 자세한 정보는 [빌드 구성]을 참고하세요.
+ */
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
