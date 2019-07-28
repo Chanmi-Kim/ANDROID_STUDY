@@ -1,0 +1,10 @@
+<resources>
+    <!--
+    이 파일은 모든 UI 문자열을 지정해야 하는 문자열 리소스 파일입니다.
+    이렇게 문자열을 지정하면 단일 위치에서 모든 UI 문자열을 관리할 수 있으므로,
+    레이아웃이나 앱 코드의 하드 코딩 문자열에 비해 찾기, 업데이트 및 현지화를 더욱 쉽게 수행할 수 있습니다.
+    -->
+    <string name="app_name">MyFirstApp</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+</resources>
